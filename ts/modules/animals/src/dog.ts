@@ -1,5 +1,5 @@
 import Animal from '.';
-import { makeRandomName } from '../core/utilities';
+import { makeRandomName } from '../../core/utilities';
 
 export interface Dog extends Animal {
     woof(): void;
@@ -15,4 +15,5 @@ export function createDog(): Dog {
         name: makeRandomName()
     });
 }
+
 

@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig-base.json",
+  "compileOnSave": true,
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "./lib/core",
+    "rootDir": "."
+  },
+}

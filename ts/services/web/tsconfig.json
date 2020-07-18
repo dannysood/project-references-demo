@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig-base.json",
+  "files": [],
+  "compileOnSave": true,
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "./lib",
+  },
+  "references": [
+    // {
+    //   "path": "../../modules/zoo"
+    // },
+    {
+      "path": "../../modules/core"
+    }
+  ]
+}

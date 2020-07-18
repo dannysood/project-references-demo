@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig-base.json",
+  "includes": ["./src/index.ts"],
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "./lib",
+    "rootDir": "./src",
+  },
+  "references": [
+    {"path": "../core"}
+  ]
+
+}
