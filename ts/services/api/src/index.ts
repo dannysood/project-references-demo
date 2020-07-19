@@ -1,4 +1,5 @@
-import { Dog, createDog } from "../../../modules/animals/src";
+import { Dog, createDog,FirebaseError } from "../../../modules/animals";
 
-export {Dog, createDog}
+
+export {Dog, createDog, FirebaseError}
 
